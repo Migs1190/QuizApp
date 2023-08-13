@@ -1,0 +1,45 @@
+:root * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sizing-container {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+label {
+  display: block;
+}
+#settings-main-frame * {
+  margin: 10px 0;
+}
+.selectors {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  font-size: 16px;
+}
+.start-btn-frame {
+  text-align: center;
+}
+.start-btn,
+.finish-quiz,
+.redo-quiz {
+  width: 20%;
+  padding: 1%;
+  margin-top: 2%;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+h5 {
+  font-size: 25px;
+  line-height: 2;
+}
+#results-main-frame {
+  text-align: center;
+}
